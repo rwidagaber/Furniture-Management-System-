@@ -1,0 +1,362 @@
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.AssemblyReference.cache
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmHome.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.HomeFrm.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCategoryAdd.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmPOS.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductAdd.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmStaffAdd.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableAdd.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableSelect.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmWaiterSelect.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.UcProduct.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Properties.Resources.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleAdd.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmCategoryView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmKitchenView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmStaffView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmTableView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.GenerateResource.cache
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CoreCompileInputs.cache
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe.config
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.pdb
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Guna.UI.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.exe
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.pdb
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmBillList.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCheckout.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmReportView.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturan.387F3A9C.Up2Date
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmAddCustomer.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrint.resources
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\EnvDTE.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\stdole.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\CAMELLIA\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrintBill.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.AssemblyReference.cache
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmHome.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrint.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrintBill.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmAddCustomer.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmBillList.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCategoryAdd.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCheckout.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmPOS.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductAdd.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmStaffAdd.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableAdd.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableSelect.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmWaiterSelect.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.UcProduct.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Properties.Resources.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleAdd.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmCategoryView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmKitchenView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmReportView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmStaffView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmTableView.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.GenerateResource.cache
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.exe
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.pdb
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe.config
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.pdb
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\EnvDTE.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\stdole.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CoreCompileInputs.cache
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CopyComplete
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmlog.resources
+C:\Users\Aa\Desktop\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmMain.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe.config
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Resturant Mangement System.pdb
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\EnvDTE.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\stdole.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.AssemblyReference.cache
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmHome.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmlog.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmMain.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrint.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrintBill.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmAddCustomer.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmBillList.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCategoryAdd.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCheckout.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmPOS.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductAdd.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmStaffAdd.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableAdd.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableSelect.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmWaiterSelect.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.UcProduct.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Properties.Resources.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleAdd.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmCategoryView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmKitchenView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmReportView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmStaffView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmTableView.resources
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.GenerateResource.cache
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CoreCompileInputs.cache
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CopyComplete
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.exe
+C:\Users\Aa\Desktop\MyProjects\RM\Restaurant-Management-System\Resturant Mangement System\obj\Debug\Resturant Mangement System.pdb
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe.config
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Resturant Mangement System.pdb
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\EnvDTE.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\stdole.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.AssemblyReference.cache
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmHome.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmlog.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmMain.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrint.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrintBill.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmAddCustomer.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmBillList.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCategoryAdd.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCheckout.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmPOS.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductAdd.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmStaffAdd.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableAdd.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmTableSelect.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmWaiterSelect.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.UcProduct.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Properties.Resources.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleAdd.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmCategoryView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmKitchenView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmReportView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmStaffView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmTableView.resources
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.GenerateResource.cache
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CoreCompileInputs.cache
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CopyComplete
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.exe
+C:\Users\Aa\Desktop\FurnitureApp\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.pdb
