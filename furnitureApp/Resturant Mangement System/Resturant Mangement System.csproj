@@ -139,18 +139,6 @@
     <Compile Include="Model\frmStaffAdd.Designer.cs">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\frmTableAdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Model\frmTableAdd.Designer.cs">
-      <DependentUpon>frmTableAdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Model\frmTableSelect.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Model\frmTableSelect.Designer.cs">
-      <DependentUpon>frmTableSelect.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\frmWaiterSelect.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,12 +247,6 @@
     <Compile Include="View\frmStaffView.Designer.cs">
       <DependentUpon>frmStaffView.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frmTableView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\frmTableView.Designer.cs">
-      <DependentUpon>frmTableView.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -301,12 +283,6 @@
     <EmbeddedResource Include="Model\frmStaffAdd.resx">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmTableAdd.resx">
-      <DependentUpon>frmTableAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmTableSelect.resx">
-      <DependentUpon>frmTableSelect.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Model\frmWaiterSelect.resx">
       <DependentUpon>frmWaiterSelect.cs</DependentUpon>
     </EmbeddedResource>
@@ -338,9 +314,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmStaffView.resx">
       <DependentUpon>frmStaffView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\frmTableView.resx">
-      <DependentUpon>frmTableView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="PrintBill.xsc">

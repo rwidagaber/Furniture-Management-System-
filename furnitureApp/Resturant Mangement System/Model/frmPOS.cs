@@ -252,20 +252,20 @@ namespace Resturant_Mangement_System.Model
         {
             OrderType = "Din in";
             lblDriverName.Visible = false;
-            frmTableSelect tabfrm = new frmTableSelect();
+            //frmTableSelect tabfrm = new frmTableSelect();
 
-            tabfrm.ShowDialog();
-            if (tabfrm.TableName != "")
-            {
-                lblTable.Text = tabfrm.TableName;
-                lblTable.Visible = true;
-            }
+            //tabfrm.ShowDialog();
+            //if (tabfrm.TableName != "")
+            //{
+            //    lblTable.Text = tabfrm.TableName;
+            //    lblTable.Visible = true;
+            //}
 
-            else
-            {
-                lblTable.Text = "";
-                lblTable.Visible = false;
-            }
+            //else
+            //{
+            //    lblTable.Text = "";
+            //    lblTable.Visible = false;
+            //}
 
 
             frmWaiterSelect frm2 =  new frmWaiterSelect();

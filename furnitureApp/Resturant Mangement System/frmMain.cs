@@ -79,12 +79,7 @@ namespace Resturant_Mangement_System
             AddControl(new View.frmProductView());
         }
 
-        private void Tablesbtn_Click(object sender, EventArgs e)
-        {
-            Btn_setting(sender, null);
-            AddControl(new View.frmTableView());
-        }
-
+        
         private void Staffbtn_Click(object sender, EventArgs e)
         {
             Btn_setting(sender, null);

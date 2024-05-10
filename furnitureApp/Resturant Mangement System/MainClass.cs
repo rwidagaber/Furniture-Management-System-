@@ -17,8 +17,8 @@ namespace Resturant_Mangement_System
     {
         //connect to database
 
-        //   public static readonly string con_string = "Data Source=CAMELLIA;Initial Catalog=RMS;Integrated Security=True;TrustServerCertificate=True";
-        public static readonly string con_string = "Data Source=RWIDA;Initial Catalog=furnture;Integrated Security=True";
+        public static readonly string con_string = "Data Source=camellia;Initial Catalog=furnture;Integrated Security=True;TrustServerCertificate=True";
+     //   public static readonly string con_string = "Data Source=RWIDA;Initial Catalog=furnture;Integrated Security=True";
         public static SqlConnection con = new SqlConnection(con_string);
 
         //Methode to check user validation
@@ -158,8 +158,8 @@ namespace Resturant_Mangement_System
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
-            cb.DisplayMember = "name";
-            cb.ValueMember = "id";
+            cb.DisplayMember = "catName";
+            cb.ValueMember = "catid";
             cb.DataSource = dataTable;
             cb.SelectedIndex = -1;
 
