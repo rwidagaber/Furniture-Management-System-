@@ -31,17 +31,16 @@ namespace Resturant_Mangement_System.Model
         {
             //copy from frmproductView----->
 
-            string qry = @"select oID,custNamecashierName,orderType,status,total from tblMain
-                           where status <> 'Pending' ";
+            string qry = @"select oID,total,Recieve,change from orderDetail);
+                             select SCOPE_IDENTITY()";
 
             ListBox lb = new ListBox();
 
             lb.Items.Add(dgvid);
-            lb.Items.Add(dgvtable);
-           // lb.Items.Add(dgvWaiter);
-            lb.Items.Add(dgvType);
-            lb.Items.Add(dgvStatus);
             lb.Items.Add(dgvTotal);
+           
+            lb.Items.Add(dgvReceieve);
+            lb.Items.Add(dgvChange);
 
 
             MainClass.LoadData(qry, dataGridView1, lb);
@@ -71,22 +70,22 @@ namespace Resturant_Mangement_System.Model
                 MainID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["dgvid"].Value);
                 this.Close();
             }
-            else if (dataGridView1.CurrentCell.OwningColumn.Name == "dgvdel")
-            {
-                //print bill
-                MainID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["dgvid"].Value);
-                string qry = @"select * from tblMain m inner join 
-                            tblDetails d on m.MainID=d.MainID inner join product p on p.PID = d.proID where m.MainID= "+MainID+"";
+            //else if (dataGridView1.CurrentCell.OwningColumn.Name == "dgvdel")
+            //{
+            //    //print bill
+            //    MainID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["dgvid"].Value);
+            //    string qry = @"select * from tblMain m inner join 
+            //                tblDetails d on m.MainID=d.MainID inner join product p on p.PID = d.proID where m.MainID= "+MainID+"";
                 
-                SqlCommand cmd = new SqlCommand(qry,MainClass.con);
-                MainClass.con.Open();
-                DataTable dt = new DataTable();
-                SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
-                dataAdapter.Fill(dt);
-                MainClass.con.Close();
-                frmPrint frm=new frmPrint();
+            //    SqlCommand cmd = new SqlCommand(qry,MainClass.con);
+            //    MainClass.con.Open();
+            //    DataTable dt = new DataTable();
+            //    SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
+            //    dataAdapter.Fill(dt);
+            //    MainClass.con.Close();
+            //    frmPrint frm=new frmPrint();
                 
-            }
+            //}
         }
     }
 }

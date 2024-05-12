@@ -17,8 +17,8 @@ namespace Resturant_Mangement_System
     {
         //connect to database
 
-        public static readonly string con_string = "Data Source=camellia;Initial Catalog=furnture;Integrated Security=True;TrustServerCertificate=True";
-     //   public static readonly string con_string = "Data Source=RWIDA;Initial Catalog=furnture;Integrated Security=True";
+       // public static readonly string con_string = "Data Source=camellia;Initial Catalog=furnture;Integrated Security=True;TrustServerCertificate=True";
+       public static readonly string con_string = "Data Source=RWIDA;Initial Catalog=furnture;Integrated Security=True";
         public static SqlConnection con = new SqlConnection(con_string);
 
         //Methode to check user validation

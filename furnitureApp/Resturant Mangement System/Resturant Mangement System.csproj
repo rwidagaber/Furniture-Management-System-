@@ -55,6 +55,12 @@
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -72,12 +78,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmHome.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHome.Designer.cs">
-      <DependentUpon>frmHome.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmLogincs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,17 +133,17 @@
     <Compile Include="Model\frmPOS.Designer.cs">
       <DependentUpon>frmPOS.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\frmrecpcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmrecpcs.Designer.cs">
+      <DependentUpon>frmrecpcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\frmStaffAdd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Model\frmStaffAdd.Designer.cs">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Model\frmWaiterSelect.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Model\frmWaiterSelect.Designer.cs">
-      <DependentUpon>frmWaiterSelect.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\UcProduct.cs">
       <SubType>UserControl</SubType>
@@ -247,9 +247,6 @@
     <Compile Include="View\frmStaffView.Designer.cs">
       <DependentUpon>frmStaffView.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmHome.resx">
-      <DependentUpon>frmHome.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmLogincs.resx">
       <DependentUpon>frmLogincs.cs</DependentUpon>
     </EmbeddedResource>
@@ -280,11 +277,11 @@
     <EmbeddedResource Include="Model\frmProductAdd.resx">
       <DependentUpon>frmProductAdd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmrecpcs.resx">
+      <DependentUpon>frmrecpcs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Model\frmStaffAdd.resx">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmWaiterSelect.resx">
-      <DependentUpon>frmWaiterSelect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model\UcProduct.resx">
       <DependentUpon>UcProduct.cs</DependentUpon>
@@ -339,6 +336,7 @@
       <DependentUpon>printReceipt.xsd</DependentUpon>
     </None>
     <None Include="Properties\DataSources\frmPrint.datasource" />
+    <None Include="Properties\DataSources\printReceipt.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -422,6 +420,7 @@
     <Folder Include="bin\Debug\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\PagedList.css" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

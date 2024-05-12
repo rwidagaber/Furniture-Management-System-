@@ -30,15 +30,14 @@ namespace Resturant_Mangement_System.Model
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBillList));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.categoryView = new System.Windows.Forms.DataGridView();
             this.dgvSno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvtable = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvCashier = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvReceieve = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvChange = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvedit = new System.Windows.Forms.DataGridViewImageColumn();
             this.dgvdel = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel1.SuspendLayout();
@@ -93,11 +92,9 @@ namespace Resturant_Mangement_System.Model
             this.categoryView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dgvSno,
             this.dgvid,
-            this.dgvtable,
-            this.dgvCashier,
-            this.dgvType,
-            this.dgvStatus,
             this.dgvTotal,
+            this.dgvReceieve,
+            this.dgvChange,
             this.dgvedit,
             this.dgvdel});
             this.categoryView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnKeystroke;
@@ -135,40 +132,24 @@ namespace Resturant_Mangement_System.Model
             this.dgvid.ReadOnly = true;
             this.dgvid.Visible = false;
             // 
-            // dgvtable
-            // 
-            this.dgvtable.HeaderText = "Table";
-            this.dgvtable.MinimumWidth = 6;
-            this.dgvtable.Name = "dgvtable";
-            this.dgvtable.ReadOnly = true;
-            // 
-            // dgvCashier
-            // 
-            this.dgvCashier.HeaderText = "Cashier";
-            this.dgvCashier.MinimumWidth = 6;
-            this.dgvCashier.Name = "dgvCashier";
-            this.dgvCashier.ReadOnly = true;
-            // 
-            // dgvType
-            // 
-            this.dgvType.HeaderText = "Order Type";
-            this.dgvType.MinimumWidth = 6;
-            this.dgvType.Name = "dgvType";
-            this.dgvType.ReadOnly = true;
-            // 
-            // dgvStatus
-            // 
-            this.dgvStatus.HeaderText = "Status";
-            this.dgvStatus.MinimumWidth = 6;
-            this.dgvStatus.Name = "dgvStatus";
-            this.dgvStatus.ReadOnly = true;
-            // 
             // dgvTotal
             // 
             this.dgvTotal.HeaderText = "total";
             this.dgvTotal.MinimumWidth = 6;
             this.dgvTotal.Name = "dgvTotal";
             this.dgvTotal.ReadOnly = true;
+            // 
+            // dgvReceieve
+            // 
+            this.dgvReceieve.HeaderText = "Receieve";
+            this.dgvReceieve.Name = "dgvReceieve";
+            this.dgvReceieve.ReadOnly = true;
+            // 
+            // dgvChange
+            // 
+            this.dgvChange.HeaderText = "Change";
+            this.dgvChange.Name = "dgvChange";
+            this.dgvChange.ReadOnly = true;
             // 
             // dgvedit
             // 
@@ -186,6 +167,7 @@ namespace Resturant_Mangement_System.Model
             this.dgvdel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dgvdel.FillWeight = 50F;
             this.dgvdel.HeaderText = "";
+            this.dgvdel.Image = ((System.Drawing.Image)(resources.GetObject("dgvdel.Image")));
             this.dgvdel.MinimumWidth = 50;
             this.dgvdel.Name = "dgvdel";
             this.dgvdel.ReadOnly = true;
@@ -220,11 +202,9 @@ namespace Resturant_Mangement_System.Model
         private System.Windows.Forms.DataGridView categoryView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvSno;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgvtable;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgvCashier;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgvType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgvStatus;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvTotal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvReceieve;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvChange;
         private System.Windows.Forms.DataGridViewImageColumn dgvedit;
         private System.Windows.Forms.DataGridViewImageColumn dgvdel;
     }

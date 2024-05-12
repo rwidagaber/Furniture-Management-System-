@@ -21,7 +21,7 @@ namespace Resturant_Mangement_System.Model
             InitializeComponent();
         }
         public static int MainID = 0;
-        public string OrderType="";
+        public string OrderType = "";
         public int id = 0;
         public int driverID = 0;
         public string customerName = "";
@@ -31,6 +31,8 @@ namespace Resturant_Mangement_System.Model
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+
+
         }
 
         private void frmPOS_Load(object sender, EventArgs e)
@@ -39,7 +41,7 @@ namespace Resturant_Mangement_System.Model
             ProductPanel.Controls.Clear();
             LoadProducts();
         }
-         
+
 
         private void AddCategory()
         {
@@ -57,8 +59,9 @@ namespace Resturant_Mangement_System.Model
                 {
                     //properties
                     Button b = new Button();
-                    b.BackColor = Color.FromArgb(255, 223, 0);
-                    b.Size = new Size(134, 45);
+                    b.BackColor = Color.FromArgb(151, 116, 95);
+                    b.ForeColor = Color.FromArgb(255, 255, 255);
+                    b.Size = new Size(134, 50);
                     //b.ButtonMode = System.Windows.Forms.Enums.ButtonMode.RadioButton;
                     b.Text = row["CatName"].ToString();
 
@@ -109,16 +112,20 @@ namespace Resturant_Mangement_System.Model
                     //this will check product already there then +1 to quantity and update price
                     if (Convert.ToInt32(item.Cells["dgvid"].Value) == wdg.id)
                     {
-                        item.Cells["dgvQty"].Value = int.Parse(item.Cells["dgvQty"].Value.ToString())+1;
+                        item.Cells["dgvQty"].Value = int.Parse(item.Cells["dgvQty"].Value.ToString()) + 1;
                         item.Cells["dgvAmount"].Value = int.Parse(item.Cells["dgvQty"].Value.ToString()) *
                             double.Parse(item.Cells["dgvPrice"].Value.ToString());
+
+
                         GetTotal();
                         return;
                     }
 
 
                 }
+
                 //this line add new product
+
                 dataGridView1.Rows.Add(new object[] { 0, wdg.id, wdg.PName, 1, wdg.PPrice, wdg.PPrice });
 
                 GetTotal();
@@ -178,7 +185,7 @@ namespace Resturant_Mangement_System.Model
         }
 
         //total price
-        private void GetTotal()
+        private double GetTotal()
         {
             double tot = 0;
             lblTotal.Text = "";
@@ -187,6 +194,7 @@ namespace Resturant_Mangement_System.Model
                 tot += double.Parse(item.Cells["dgvAmount"].Value.ToString());
             }
             lblTotal.Text = tot.ToString("N2");
+            return tot;
         }
 
         private void btnNew_Click(object sender, EventArgs e)
@@ -200,183 +208,19 @@ namespace Resturant_Mangement_System.Model
             lblTotal.Text = "00";
         }
 
-        private void btnDelievery_Click(object sender, EventArgs e)
-        {
-            lblTable.Text = "";
-            lblWaiter.Text = "";
-            lblTable.Visible = false;
-            lblWaiter.Visible = false;
-            OrderType = "Delievery";
 
-            frmAddCustomer frm = new frmAddCustomer();
-            frm.mainID = MainID;
-            frm.orderType = OrderType;
-            frm.ShowDialog();
 
-            if (frm.txtName.Text != "") //as take away didn't have driver info
-            {
-                driverID = frm.driverID;
-                lblDriverName.Text = "Customer Name: " + frm.txtName.Text + "Phone: " + frm.txtPhone.Text + "Driver: " + frm.cbDriver.Text;
-                lblDriverName.Visible = true;
-                customerName = frm.txtName.Text;
-                customerPhone = frm.txtPhone.Text;
-            }
-        }
+
+
+
+
 
         
 
-        private void btnTake_Click(object sender, EventArgs e)
-        {
-            lblTable.Text = "";
-            lblWaiter.Text = "";
-            lblTable.Visible = false;
-            lblWaiter.Visible = false;
-            OrderType = "Take Away";
 
-            frmAddCustomer frm = new frmAddCustomer();
-            frm.mainID = MainID;
-            frm.orderType = OrderType;
-           // frm.ShowDialog();
+    
 
-            if (frm.txtName.Text != "") //as take away didn't have driver info
-            {
-                driverID = frm.driverID;
-                lblDriverName.Text = "Customer Name: " + frm.txtName.Text + "Phone: " + frm.txtPhone.Text;
-                lblDriverName.Visible = true;
-                customerName = frm.txtName.Text;
-                customerPhone = frm.txtPhone.Text;
-            }
-        }
-
-        private void btnDin_Click(object sender, EventArgs e)
-        {
-            OrderType = "Din in";
-            lblDriverName.Visible = false;
-            //frmTableSelect tabfrm = new frmTableSelect();
-
-            //tabfrm.ShowDialog();
-            //if (tabfrm.TableName != "")
-            //{
-            //    lblTable.Text = tabfrm.TableName;
-            //    lblTable.Visible = true;
-            //}
-
-            //else
-            //{
-            //    lblTable.Text = "";
-            //    lblTable.Visible = false;
-            //}
-
-
-            frmWaiterSelect frm2 =  new frmWaiterSelect();
-
-           // MainClass.BlurBackground(frm2);
-           frm2.ShowDialog();
-            if (frm2.WaiterName != "")
-            {
-                lblWaiter.Text = frm2.WaiterName;
-                lblWaiter.Visible = true;
-            }
-
-            else
-            {
-                lblWaiter.Text = "";
-                lblWaiter.Visible = false;
-            }
-        }
-
-        private void btnKot_Click(object sender, EventArgs e)
-        {
-            //save the date in DB
-
-
-            string qryl = "";  //main table
-            string qry2 = ""; //deatil table
-
-            int detailID = 0;
-            if (MainID == 0) //insert
-            {
-                qryl = @"insert into orderDetail Values(@odate , @otime , @TableName  ,@WaiterName ,
-                               @status , @orderType , @total , @recevied , @change, @driverID , @CustName , @CustPhone);
-                                 select SCOPE_IDENTITY()";  //this line will get recent add id value
-
-            }
-
-            else //update
-            {
-                qryl = @"update into tblMain set status= @status,total = @total,recevied = @recevied,change = @change where MainID = @oID)";
-
-            }
-
-            Hashtable ht = new Hashtable();
-
-            SqlCommand cmd = new SqlCommand(qryl, MainClass.con);
-            cmd.Parameters.AddWithValue("@ID", MainID);
-            cmd.Parameters.AddWithValue("(@aDate", Convert.ToDateTime(DateTime.Now.Date));
-            cmd.Parameters.AddWithValue("@aTime", DateTime.Now.ToShortTimeString());
-            cmd.Parameters.AddWithValue("@TableName", lblTable.Text);
-            cmd.Parameters.AddWithValue("@WaiterName", lblWaiter.Text);
-            cmd.Parameters.AddWithValue("@status", "Pending");
-            cmd.Parameters.AddWithValue("@orderType", OrderType);
-            cmd.Parameters.AddWithValue("@total", Convert.ToDouble(0));  //as we only saving data for kitch value will update when payement
-            cmd.Parameters.AddWithValue("@recevied", Convert.ToDouble(0));
-            cmd.Parameters.AddWithValue("@change", Convert.ToDouble(0));
-            cmd.Parameters.AddWithValue("@driverID", driverID);
-            cmd.Parameters.AddWithValue("@CustName", customerName);
-            cmd.Parameters.AddWithValue("@CustPhone", customerPhone);
-
-          //  if (MainClass.con.State == ConnectionState.Closed) { MainClass.con.Open(); }
-       //     if (MainID == 0) { MainID = Convert.ToInt32(cmd.ExecuteScalar()); } else { cmd.ExecuteNonQuery(); }
-           // if (MainClass.con.State == ConnectionState.Open) { MainClass.con.Close(); }
-
-            foreach (DataGridViewRow row in dataGridView1.Rows)
-            {
-                detailID = Convert.ToInt32(row.Cells["dgvid"].Value);
-
-                if (detailID == 0) //insert
-                {
-                    qry2 = @"insert info tblDetails Values(@MainID , @proID , @qty , @priec , @amount";
-                }
-
-                else
-                {
-                    qry2 = @"update  tblDetails set  proID = @pID , qty = @qty , priec = @priec , amount = @amount";
-
-                }
-
-
-                SqlCommand cmd2 = new SqlCommand(qry2, MainClass.con);
-                cmd.Parameters.AddWithValue("@ID", detailID);
-                cmd.Parameters.AddWithValue("@MainID", MainID);
-                cmd.Parameters.AddWithValue("(@pID", Convert.ToInt32(row.Cells["dgvid"].Value));
-                cmd.Parameters.AddWithValue("@qty", Convert.ToInt32(row.Cells["dgvQty"].Value));
-                cmd.Parameters.AddWithValue("@priec", Convert.ToDouble(row.Cells["dgvPrice"].Value));
-                cmd.Parameters.AddWithValue("@amount", Convert.ToDouble(row.Cells["dgvQty"].Value));
-
-
-                if (MainClass.con.State == ConnectionState.Closed) { MainClass.con.Open(); }
-                cmd2.ExecuteNonQuery();
-                if (MainClass.con.State == ConnectionState.Open) { MainClass.con.Close(); }
-
-
-                //msg--->saved successfully
-                MessageBox.Show("Saved Successfuly..");
-                MainID = 0;
-                detailID = 0;
-                dataGridView1.Rows.Clear();
-                lblTable.Text = "";
-                lblWaiter.Text = "";
-                lblTable.Visible = false;
-                lblWaiter.Visible = false;
-                MainID = 0;
-                lblTotal.Text = "00";
-                lblDriverName.Text = "";
-
-            }
-
-        }
-
-        private void btnBill_Click(object sender, EventArgs e)
+    private void btnBill_Click(object sender, EventArgs e)
         {
             frmBillList frm = new frmBillList();
             frm.ShowDialog();
@@ -391,40 +235,40 @@ namespace Resturant_Mangement_System.Model
 
         private void LoadEntries()
         {
-            string qry = @"Select * from tblMain m
-                                    inner join tblDetails d on m.MainID
-                                    inner join products p on p.pID = d.proID
-                                    where m.MainID = " + id + "";
+            string qry = @"Select * from orderDetil m
+                                    inner join tblDetails d on m.oID
+                                    inner join products p on p.pID = d.pID
+                                    where m.oID = " + id + "";
 
             SqlCommand cmd2 = new SqlCommand(qry, MainClass.con);
             DataTable dt2 = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd2);
             da.Fill(dt2);
 
-            if (dt2.Rows[0]["orderType"].ToString() == "Delivery")
-            {
-                //btnDelievery. = true;
-                lblWaiter.Visible = false;
-                lblTable.Visible = false;
+            //if (dt2.Rows[0]["orderType"].ToString() == "Delivery")
+            //{
+            //    //btnDelievery. = true;
+            //    lblWaiter.Visible = false;
+            //    lblTable.Visible = false;
 
-            }
+            //}
 
-            else if (dt2.Rows[0]["orderType"].ToString() == "Take Away")
-            {
-               // btnTake.Select() = true;
-                btnTake.BackColor=Color.White;
-                lblWaiter.Visible = false;
-                lblTable.Visible = false;
+            //else if (dt2.Rows[0]["orderType"].ToString() == "Take Away")
+            //{
+            //   // btnTake.Select() = true;
+            //    btnTake.BackColor=Color.White;
+            //    lblWaiter.Visible = false;
+            //    lblTable.Visible = false;
 
-            }
+            //}
 
-            else
-            {
-                //btnDin.check = true;
-                lblWaiter.Visible = true;
-                lblTable.Visible = true;
+            //else
+            //{
+            //    //btnDin.check = true;
+            //    lblWaiter.Visible = true;
+            //    lblTable.Visible = true;
 
-            }
+            //}
 
             dataGridView1.Rows.Clear();
 
@@ -452,18 +296,20 @@ namespace Resturant_Mangement_System.Model
         private void btnCheckout_Click(object sender, EventArgs e)
         {
             frmCheckout frm = new frmCheckout();
+            
             frm.oID = id;
             frm.amt = Convert.ToDouble(lblTotal.Text);
             frm.ShowDialog();
 
-            //messagebox.show("Saved Successfully");
+
+            //MessageBox.Show("Saved Successfully");
             MainID = 0;
-            dataGridView1.Rows.Clear();
-            lblTable.Text = "";
-            lblWaiter.Text = "";
-            lblTable.Visible = false;
-            lblWaiter.Visible = false;
-            lblTotal.Text = "00";
+           // dataGridView1.Rows.Clear();
+            //lblTable.Text = "";
+            //lblWaiter.Text = "";
+            //lblTable.Visible = false;
+            //lblWaiter.Visible = false;
+            //lblTotal.Text = "00";
         }
 
 
@@ -513,32 +359,33 @@ namespace Resturant_Mangement_System.Model
 
 
             if (MainClass.con.State == ConnectionState.Closed) { MainClass.con.Open(); }
-           // if (MainID == 0) { MainID = Convert.ToInt32(cmd.ExecuteScalar()); } else { cmd.ExecuteNonQuery(); }
+            if (MainID == 0) { MainID = Convert.ToInt32(cmd.ExecuteScalar()); } else { cmd.ExecuteNonQuery(); }
             if (MainClass.con.State == ConnectionState.Open) { MainClass.con.Close(); }
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
-                detailID = Convert.ToInt32(row.Cells["dgvid"].Value);
+                detailID = Convert.ToInt32(row.Cells["dgvproID"].Value);
 
                 if (detailID == 0) //insert
                 {
-                    qry2 = @"insert info tblDetails Values(@MainID , @proID , @qty , @priec , @amount";
+                    qry2 = @"insert into orders Values( @pID , @pQty ,  @pAmount,@detID ";
                 }
 
                 else
                 {
-                    qry2 = @"update  tblDetails set  proID = @proID , qty = @qty , priec = @priec , amount = @amount";
+                    qry2 = @"update  tblDetails set  pID = @proID , pQty = @qty ,  amount = @amount";
 
                 }
 
 
                 SqlCommand cmd2 = new SqlCommand(qry2, MainClass.con);
-                cmd.Parameters.AddWithValue("@ID", detailID);
-                cmd.Parameters.AddWithValue("@MainID", MainID);
-                //cmd.Parameters.AddWithValue("(@proID", Convert.ToInt32(row.Cells["dgvproID"].Value));
-                //cmd.Parameters.AddWithValue("@qty", Convert.ToInt32(row.Cells["dgvQty"].Value));
-                cmd.Parameters.AddWithValue("@priec", Convert.ToDouble(row.Cells["dgvPrice"].Value));
-                cmd.Parameters.AddWithValue("@amount", Convert.ToDouble(row.Cells["dgvQty"].Value));
+                cmd2.Parameters.AddWithValue("@ID", detailID);
+                cmd2.Parameters.AddWithValue("@pID", Convert.ToInt32(row.Cells["dgvproID"].Value));
+                //cmd.Parameters.AddWithValue("(@proID", );
+               cmd2.Parameters.AddWithValue("@pqty", Convert.ToInt32(row.Cells["dgvQty"].Value));
+               // cmd.Parameters.AddWithValue("@priec", Convert.ToDouble(row.Cells["dgvPrice"].Value));
+                cmd2.Parameters.AddWithValue("@amount", Convert.ToDouble(row.Cells["dgvQty"].Value));
+                cmd2.Parameters.AddWithValue("@detID", MainID);
 
 
                 if (MainClass.con.State == ConnectionState.Closed) { MainClass.con.Open(); }
@@ -550,13 +397,13 @@ namespace Resturant_Mangement_System.Model
                 MessageBox.Show("Saved Successfuly..");
                 MainID = 0;
                 detailID = 0;
-                dataGridView1.Rows.Clear();
+               // dataGridView1.Rows.Clear();
                 lblTable.Text = "";
                 lblWaiter.Text = "";
                 lblTable.Visible = false;
                 lblWaiter.Visible = false;
                 MainID = 0;
-                lblTotal.Text = "00";
+                //lblTotal.Text = "00";
                 lblDriverName.Text = "";
             }
         }
@@ -570,7 +417,19 @@ namespace Resturant_Mangement_System.Model
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            //printDocument1.Print();
+            frmrecpcs frm = new frmrecpcs();
+            frm.ShowDialog();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            //label2.Text = 
+
+        }
+
+        private void userName_TextChanged(object sender, EventArgs e)
+        {
+           // userName.Text= MainClass.USER; ;
         }
     }
 }

@@ -53,5 +53,15 @@ namespace Resturant_Mangement_System.Model
         {
 
         }
+
+        private void btnSave_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

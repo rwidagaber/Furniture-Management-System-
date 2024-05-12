@@ -31,6 +31,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtCatName = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,8 +46,19 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(171, 29);
+            this.label1.Size = new System.Drawing.Size(137, 24);
             this.label1.Text = "Add Category";
+            // 
+            // btnSave
+            // 
+            this.btnSave.FlatAppearance.BorderSize = 0;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
+            // 
+            // btnClose
+            // 
+            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(223)))), ((int)(((byte)(0)))));
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click_1);
             // 
             // label2
             // 
@@ -54,7 +66,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(35, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 22);
+            this.label2.Size = new System.Drawing.Size(125, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Category Name";
             // 
@@ -66,13 +78,13 @@
             this.txtCatName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCatName.Location = new System.Drawing.Point(39, 181);
             this.txtCatName.Name = "txtCatName";
-            this.txtCatName.Size = new System.Drawing.Size(284, 30);
+            this.txtCatName.Size = new System.Drawing.Size(284, 26);
             this.txtCatName.TabIndex = 2;
             this.txtCatName.TextChanged += new System.EventHandler(this.txtCatName_TextChanged);
             // 
             // frmCategoryAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(371, 420);
             this.Controls.Add(this.txtCatName);
@@ -88,6 +100,7 @@
             this.Controls.SetChildIndex(this.txtCatName, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

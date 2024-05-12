@@ -159,12 +159,12 @@ namespace Resturant_Mangement_System
         #endregion
 
         private System.Windows.Forms.TextBox txtpassword;
-        private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnExit;
+        public System.Windows.Forms.TextBox txtUserName;
     }
 }

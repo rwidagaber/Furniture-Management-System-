@@ -17,20 +17,22 @@ namespace Resturant_Mangement_System
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        public void btnLogin_Click(object sender, EventArgs e)
         {
             if (MainClass.IsValidUser(txtUserName.Text, txtpassword.Text) == false)
             {
-                MessageBox.Show("Wrong");
+                MessageBox.Show("Wrong Username or password");
                 return;
             }
             else
             {
+               //public string usg = txtUserName.Text;
                 this.Hide();
                 if (MainClass.IsManager(txtUserName.Text, txtpassword.Text) == false)
                 {
                     Model.frmPOS frm = new Model.frmPOS();
                     frm.Show();
+
                 }
                 else if(MainClass.IsManager(txtUserName.Text, txtpassword.Text) == true)
                 {

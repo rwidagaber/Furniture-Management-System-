@@ -26,7 +26,7 @@ namespace Resturant_Mangement_System.View
         private void GetOrders()
         {
             flowLayoutPanel1.Controls.Clear();
-            string qry1 = @"Select * from tblMain where status = 'Pending'";
+            string qry1 = @"Select * from orderDetail";
             SqlCommand cmd1= new SqlCommand(qry1,MainClass.con);
             DataTable dt1 = new DataTable();
             SqlDataAdapter sqlDataAdapter1 = new SqlDataAdapter(cmd1);
@@ -72,10 +72,10 @@ namespace Resturant_Mangement_System.View
                 lbl4.Margin=new Padding(10,5, 3, 0);
                 lbl4.AutoSize = true;
 
-                lbl1.Text = "Table :" + dt1.Rows[i]["TableName"].ToString();
-                lbl2.Text = "Waiter Name :" + dt1.Rows[i]["WaiterName"].ToString();
-                lbl3.Text = "Order Time :" + dt1.Rows[i]["aTime"].ToString();
-                lbl4.Text = "Order Type :" + dt1.Rows[i]["orderType"].ToString();
+                lbl1.Text = "Casher :" + dt1.Rows[i]["cashierName"].ToString();
+                lbl2.Text = "Waiter Name tpt= :" + dt1.Rows[i]["total"].ToString();
+                lbl3.Text = "Order Time :" + dt1.Rows[i]["odate"].ToString();
+                lbl4.Text = "Order Type :" + dt1.Rows[i]["oID"].ToString();
 
                 p2.Controls.Add(lbl1);
                 p2.Controls.Add(lbl2);
@@ -83,35 +83,35 @@ namespace Resturant_Mangement_System.View
                 p2.Controls.Add(lbl4);
 
                 int mid = 0;
-                mid = Convert.ToInt32(dt1.Rows[i]["MainID"].ToString());
+                mid = Convert.ToInt32(dt1.Rows[i]["oID"].ToString());
 
-                string qry2 = @"select * from tblMain m inner join tblDetails d on m.MainID = d.MainID
-                               inner join product p on p.pID = d.proID where m.MainID = "+mid+"";
+                //string qry2 = @"select * from tblMain m inner join tblDetails d on m.MainID = d.MainID
+                //               inner join product p on p.pID = d.proID where m.MainID = "+mid+"";
 
-                SqlCommand cmd2 = new SqlCommand(qry2, MainClass.con);
-                DataTable dt2 = new DataTable();
-                SqlDataAdapter sqlDataAdapter2 = new SqlDataAdapter(cmd2);
-                sqlDataAdapter2.Fill(dt2);
+                //SqlCommand cmd2 = new SqlCommand(qry2, MainClass.con);
+                //DataTable dt2 = new DataTable();
+                //SqlDataAdapter sqlDataAdapter2 = new SqlDataAdapter(cmd2);
+                //sqlDataAdapter2.Fill(dt2);
 
-                for (int j = 0; j < dt2.Rows.Count; ++j)
-                {
-                    Label lbl5 = new Label();
-                    lbl5.ForeColor = Color.White;
-                    lbl5.Margin = new Padding(10, 5, 3, 0);
-                    lbl5.AutoSize = true;
+                //for (int j = 0; j < dt2.Rows.Count; ++j)
+                //{
+                //    Label lbl5 = new Label();
+                //    lbl5.ForeColor = Color.White;
+                //    lbl5.Margin = new Padding(10, 5, 3, 0);
+                //    lbl5.AutoSize = true;
 
                     
-                    lbl5.Text = "" + (i+j) + " " + dt2.Rows[j]["pName"].ToString() + " " + dt2.Rows[j]["qty"].ToString();
-                    p1.Controls.Add(lbl5);
+                //    lbl5.Text = "" + (i+j) + " " + dt2.Rows[j]["pName"].ToString() + " " + dt2.Rows[j]["qty"].ToString();
+                //    p1.Controls.Add(lbl5);
 
-                }
-                //complete button
+                //}
+                ////complete button
                 System.Windows.Forms.Button button = new System.Windows.Forms.Button();
                 button.Size = new Size(100, 35);
                 button.BackColor = Color.Yellow;
                 button.Margin=new Padding(30, 5, 3, 10);
                 button.Text = "Complete";
-                button.Tag = dt1.Rows[i]["MainID"].ToString();//store id
+                button.Tag = dt1.Rows[i]["oID"].ToString();//store id
                 button.Click += new EventHandler(button_click);
                 p1.Controls.Add(button);
 
@@ -128,7 +128,7 @@ namespace Resturant_Mangement_System.View
 
             if (MessageBox.Show("Are you sure to update order status? ", "Warnnig", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                string qry = @"Update tblMain set status = 'Complete' where MainID=@ID";
+                string qry = @"Update orderDetail set Recieve = '500' where oID=@ID";
                 Hashtable ht = new Hashtable();
                 ht.Add("@ID", id);
 

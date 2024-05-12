@@ -64,7 +64,7 @@ namespace Resturant_Mangement_System
         private void HomeBtn_Click(object sender, EventArgs e)
         {
             Btn_setting(HomeBtn, null);
-            AddControl(new frmHome());
+            
         }
 
         private void Categoriesbtn_Click(object sender, EventArgs e)

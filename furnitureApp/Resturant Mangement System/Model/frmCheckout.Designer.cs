@@ -36,6 +36,7 @@ namespace Resturant_Mangement_System.Model
             this.txtReceived = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,6 +48,15 @@ namespace Resturant_Mangement_System.Model
             // 
             this.panel2.Size = new System.Drawing.Size(800, 100);
             // 
+            // btnSave
+            // 
+            this.btnSave.FlatAppearance.BorderSize = 0;
+            // 
+            // btnClose
+            // 
+            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(223)))), ((int)(((byte)(0)))));
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            // 
             // txtChange
             // 
             this.txtChange.Enabled = false;
@@ -56,6 +66,8 @@ namespace Resturant_Mangement_System.Model
             this.txtChange.ReadOnly = true;
             this.txtChange.Size = new System.Drawing.Size(190, 37);
             this.txtChange.TabIndex = 19;
+            this.txtChange.Text = "\r\n";
+            this.txtChange.TextChanged += new System.EventHandler(this.txtChange_TextChanged);
             // 
             // label3
             // 
@@ -127,6 +139,7 @@ namespace Resturant_Mangement_System.Model
             this.Controls.SetChildIndex(this.txtChange, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -134,12 +147,11 @@ namespace Resturant_Mangement_System.Model
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtChange;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtBillAmount;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtReceived;
         private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.TextBox txtReceived;
+        public System.Windows.Forms.TextBox txtChange;
     }
 }
