@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProductView));
             this.productView = new System.Windows.Forms.DataGridView();
             this.dgvSno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvid = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,12 +45,19 @@
             // 
             // label2
             // 
-            this.label2.Size = new System.Drawing.Size(151, 29);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
+            this.label2.Location = new System.Drawing.Point(133, 47);
+            this.label2.Size = new System.Drawing.Size(119, 24);
             this.label2.Text = "Product List";
             // 
             // btnAdd
             // 
             this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
+            this.btnAdd.Location = new System.Drawing.Point(27, 90);
+            this.btnAdd.Size = new System.Drawing.Size(95, 67);
+            this.btnAdd.Text = "Add";
             // 
             // productView
             // 
@@ -152,6 +160,8 @@
             this.dgvedit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dgvedit.FillWeight = 50F;
             this.dgvedit.HeaderText = "";
+            this.dgvedit.Image = ((System.Drawing.Image)(resources.GetObject("dgvedit.Image")));
+            this.dgvedit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dgvedit.MinimumWidth = 6;
             this.dgvedit.Name = "dgvedit";
             this.dgvedit.ReadOnly = true;
@@ -169,7 +179,7 @@
             // 
             // frmProductView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.productView);

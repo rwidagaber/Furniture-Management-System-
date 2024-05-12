@@ -52,17 +52,17 @@ namespace Resturant_Mangement_System
         {
             foreach (Control c in pnlcontrol.Controls)
             {
-                if ((c == CloseBtn) || (c == Maxmizebtn) || (c == MinimizeBtn)) continue;
+                if ((c == CloseBtn)  || (c == MinimizeBtn)) continue;
                 c.BackColor = Color.FromArgb(151, 116, 95);
                 c.ForeColor = Color.White;
             }
             // click setting
-            Control click=(Control)sender;
+            Control click = (Control)sender;
             click.BackColor = Color.FromArgb(179, 155, 132);
-            click.ForeColor=Color.White;
+            click.ForeColor = Color.White;
 
-            Control hover=(Control)sender;
-            hover.ForeColor=Color.AliceBlue;
+            Control hover = (Control)sender;
+            hover.ForeColor = Color.AliceBlue;
         }
 
         
@@ -104,7 +104,7 @@ namespace Resturant_Mangement_System
         private void Reportsbtn_Click(object sender, EventArgs e)
         {
             Btn_setting(sender, null);
-            AddControl(new View.frmReportView());
+            
 
         }
 

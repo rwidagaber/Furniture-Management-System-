@@ -34,6 +34,7 @@ namespace Resturant_Mangement_System.Model
             this.label1 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.ProductPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.ucProduct2 = new Resturant_Mangement_System.Model.UcProduct();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dgvSno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvid = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,21 +49,20 @@ namespace Resturant_Mangement_System.Model
             this.lblWaiter = new System.Windows.Forms.Label();
             this.lblTable = new System.Windows.Forms.Label();
             this.POS = new System.Windows.Forms.Label();
-            this.btnBill = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.PictureBox();
-            this.btnHold = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.txtsearch = new System.Windows.Forms.TextBox();
             this.lblDriverName = new System.Windows.Forms.Label();
             this.btnPrint = new System.Windows.Forms.Button();
-            this.ucProduct2 = new Resturant_Mangement_System.Model.UcProduct();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ProductPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.CategoryPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -82,7 +82,7 @@ namespace Resturant_Mangement_System.Model
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(636, 546);
+            this.label1.Location = new System.Drawing.Point(622, 548);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 26);
             this.label1.TabIndex = 21;
@@ -96,7 +96,7 @@ namespace Resturant_Mangement_System.Model
             this.lblTotal.BackColor = System.Drawing.Color.Transparent;
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.Black;
-            this.lblTotal.Location = new System.Drawing.Point(688, 548);
+            this.lblTotal.Location = new System.Drawing.Point(665, 550);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(107, 23);
             this.lblTotal.TabIndex = 22;
@@ -112,6 +112,19 @@ namespace Resturant_Mangement_System.Model
             this.ProductPanel.Name = "ProductPanel";
             this.ProductPanel.Size = new System.Drawing.Size(510, 410);
             this.ProductPanel.TabIndex = 18;
+            // 
+            // ucProduct2
+            // 
+            this.ucProduct2.id = 0;
+            this.ucProduct2.Location = new System.Drawing.Point(4, 4);
+            this.ucProduct2.Margin = new System.Windows.Forms.Padding(4);
+            this.ucProduct2.Name = "ucProduct2";
+            this.ucProduct2.PCategory = null;
+            this.ucProduct2.PImage = ((System.Drawing.Image)(resources.GetObject("ucProduct2.PImage")));
+            this.ucProduct2.PName = "label1";
+            this.ucProduct2.PPrice = null;
+            this.ucProduct2.Size = new System.Drawing.Size(171, 159);
+            this.ucProduct2.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -213,7 +226,7 @@ namespace Resturant_Mangement_System.Model
             this.btnCheckout.FlatAppearance.BorderSize = 0;
             this.btnCheckout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckout.ForeColor = System.Drawing.Color.White;
-            this.btnCheckout.Location = new System.Drawing.Point(792, 543);
+            this.btnCheckout.Location = new System.Drawing.Point(781, 544);
             this.btnCheckout.Name = "btnCheckout";
             this.btnCheckout.Size = new System.Drawing.Size(83, 30);
             this.btnCheckout.TabIndex = 1;
@@ -234,10 +247,12 @@ namespace Resturant_Mangement_System.Model
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(14, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
@@ -272,24 +287,9 @@ namespace Resturant_Mangement_System.Model
             this.POS.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.POS.Location = new System.Drawing.Point(120, 9);
             this.POS.Name = "POS";
-            this.POS.Size = new System.Drawing.Size(49, 24);
+            this.POS.Size = new System.Drawing.Size(40, 18);
             this.POS.TabIndex = 5;
             this.POS.Text = "POS";
-            // 
-            // btnBill
-            // 
-            this.btnBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
-            this.btnBill.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnBill.FlatAppearance.BorderSize = 0;
-            this.btnBill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBill.ForeColor = System.Drawing.Color.White;
-            this.btnBill.Location = new System.Drawing.Point(443, 12);
-            this.btnBill.Name = "btnBill";
-            this.btnBill.Size = new System.Drawing.Size(68, 38);
-            this.btnBill.TabIndex = 2;
-            this.btnBill.Text = "Bill List";
-            this.btnBill.UseVisualStyleBackColor = false;
-            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
             // 
             // panel1
             // 
@@ -299,9 +299,6 @@ namespace Resturant_Mangement_System.Model
             this.panel1.Controls.Add(this.lblWaiter);
             this.panel1.Controls.Add(this.lblTable);
             this.panel1.Controls.Add(this.POS);
-            this.panel1.Controls.Add(this.btnBill);
-            this.panel1.Controls.Add(this.btnHold);
-            this.panel1.Controls.Add(this.btnNew);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -311,28 +308,15 @@ namespace Resturant_Mangement_System.Model
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
-            this.btnExit.Location = new System.Drawing.Point(923, 12);
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.Location = new System.Drawing.Point(953, 12);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(100, 50);
+            this.btnExit.Size = new System.Drawing.Size(70, 50);
+            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnExit.TabIndex = 24;
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnHold
-            // 
-            this.btnHold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
-            this.btnHold.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnHold.FlatAppearance.BorderSize = 0;
-            this.btnHold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHold.ForeColor = System.Drawing.Color.White;
-            this.btnHold.Location = new System.Drawing.Point(369, 12);
-            this.btnHold.Name = "btnHold";
-            this.btnHold.Size = new System.Drawing.Size(68, 38);
-            this.btnHold.TabIndex = 1;
-            this.btnHold.Text = "Hold";
-            this.btnHold.UseVisualStyleBackColor = false;
-            this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
             // 
             // btnNew
             // 
@@ -341,9 +325,9 @@ namespace Resturant_Mangement_System.Model
             this.btnNew.FlatAppearance.BorderSize = 0;
             this.btnNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNew.ForeColor = System.Drawing.Color.White;
-            this.btnNew.Location = new System.Drawing.Point(295, 12);
+            this.btnNew.Location = new System.Drawing.Point(953, 543);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(69, 38);
+            this.btnNew.Size = new System.Drawing.Size(71, 30);
             this.btnNew.TabIndex = 0;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = false;
@@ -380,7 +364,7 @@ namespace Resturant_Mangement_System.Model
             this.btnPrint.FlatAppearance.BorderSize = 0;
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrint.ForeColor = System.Drawing.Color.White;
-            this.btnPrint.Location = new System.Drawing.Point(892, 544);
+            this.btnPrint.Location = new System.Drawing.Point(870, 544);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(77, 30);
             this.btnPrint.TabIndex = 25;
@@ -388,24 +372,23 @@ namespace Resturant_Mangement_System.Model
             this.btnPrint.UseVisualStyleBackColor = false;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
-            // ucProduct2
+            // pictureBox2
             // 
-            this.ucProduct2.id = 0;
-            this.ucProduct2.Location = new System.Drawing.Point(4, 4);
-            this.ucProduct2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.ucProduct2.Name = "ucProduct2";
-            this.ucProduct2.PCategory = null;
-            this.ucProduct2.PImage = ((System.Drawing.Image)(resources.GetObject("ucProduct2.PImage")));
-            this.ucProduct2.PName = "label1";
-            this.ucProduct2.PPrice = null;
-            this.ucProduct2.Size = new System.Drawing.Size(171, 159);
-            this.ucProduct2.TabIndex = 0;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(113, 96);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(47, 28);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 26;
+            this.pictureBox2.TabStop = false;
             // 
             // frmPOS
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(1058, 632);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.lblDriverName);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnCheckout);
@@ -429,6 +412,7 @@ namespace Resturant_Mangement_System.Model
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -446,7 +430,6 @@ namespace Resturant_Mangement_System.Model
         private System.Windows.Forms.Label lblWaiter;
         private System.Windows.Forms.Label lblTable;
         private System.Windows.Forms.Label POS;
-        private System.Windows.Forms.Button btnBill;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.TextBox txtsearch;
@@ -463,6 +446,6 @@ namespace Resturant_Mangement_System.Model
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvQty;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvPrice;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvAmount;
-        private System.Windows.Forms.Button btnHold;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

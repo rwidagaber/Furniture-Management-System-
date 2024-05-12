@@ -30,7 +30,16 @@ namespace Resturant_Mangement_System.Model
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            frmlog frm = new frmlog();
+            frmMain fm = new frmMain();
+            if (MainClass.IsManager(frm.txtUserName.Text,frm.txtpassword.Text))
+            {
+                this.Close();
+               // this.Hide();
+                fm.Show();
+                
+            }
+           else this.Close();
 
 
         }
@@ -222,77 +231,10 @@ namespace Resturant_Mangement_System.Model
 
     private void btnBill_Click(object sender, EventArgs e)
         {
-            frmBillList frm = new frmBillList();
-            frm.ShowDialog();
-
-            if (frm.MainID > 0)
-            {
-                id = frm.MainID;
-                MainID = frm.MainID;
-                LoadEntries();
-            }
+           
         }
 
-        private void LoadEntries()
-        {
-            string qry = @"Select * from orderDetil m
-                                    inner join tblDetails d on m.oID
-                                    inner join products p on p.pID = d.pID
-                                    where m.oID = " + id + "";
-
-            SqlCommand cmd2 = new SqlCommand(qry, MainClass.con);
-            DataTable dt2 = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd2);
-            da.Fill(dt2);
-
-            //if (dt2.Rows[0]["orderType"].ToString() == "Delivery")
-            //{
-            //    //btnDelievery. = true;
-            //    lblWaiter.Visible = false;
-            //    lblTable.Visible = false;
-
-            //}
-
-            //else if (dt2.Rows[0]["orderType"].ToString() == "Take Away")
-            //{
-            //   // btnTake.Select() = true;
-            //    btnTake.BackColor=Color.White;
-            //    lblWaiter.Visible = false;
-            //    lblTable.Visible = false;
-
-            //}
-
-            //else
-            //{
-            //    //btnDin.check = true;
-            //    lblWaiter.Visible = true;
-            //    lblTable.Visible = true;
-
-            //}
-
-            dataGridView1.Rows.Clear();
-
-            foreach (DataRow item in dt2.Rows)
-            {
-                lblTable.Text = item["TableName"].ToString();
-                lblWaiter.Text = item["WaiterName"].ToString();
-
-                string detailid = item["DetailID"].ToString();
-                string proName = item["proID"].ToString();
-                string proid = item["proID"].ToString();
-                string qty = item["qty"].ToString();
-                string price = item["price"].ToString();
-                string amount = item["amount"].ToString();
-
-
-                object[] obj = { 0, detailid, proid, proName, qty, price, amount };
-
-                dataGridView1.Rows.Add(obj);
-            }
-            GetTotal();
-
-        }
-
+        
         private void btnCheckout_Click(object sender, EventArgs e)
         {
             frmCheckout frm = new frmCheckout();
@@ -300,120 +242,10 @@ namespace Resturant_Mangement_System.Model
             frm.oID = id;
             frm.amt = Convert.ToDouble(lblTotal.Text);
             frm.ShowDialog();
-
-
-            //MessageBox.Show("Saved Successfully");
             MainID = 0;
-           // dataGridView1.Rows.Clear();
-            //lblTable.Text = "";
-            //lblWaiter.Text = "";
-            //lblTable.Visible = false;
-            //lblWaiter.Visible = false;
-            //lblTotal.Text = "00";
+           
         }
 
-
-        private void btnHold_Click(object sender, EventArgs e)
-        {
-            string qryl = "";  //main table
-            string qry2 = ""; //deatil table
-
-            int detailID = 0;
-
-            if(OrderType=="")
-            {
-                MessageBox.Show("Please select order type");
-                return;
-            }
-
-            if (MainID == 0) //insert
-            {
-
-                qryl = @"insert into tblMain Values(@aDate , @aTime , @TableName  ,@WaiterName ,
-                               @status , @orderType , @total , @recevied , @change, @driverID , @CustName , @CustPhone);
-                                 select SCOPE_IDENTITY()";  //this line will get recent add id value
-            }
-
-            else //update
-            {
-                qryl = @"update into tblMain set status= @status,total = @total,recevied = @recevied,change = @change where MainID = @ID";
-
-            }
-
-            Hashtable ht = new Hashtable();
-
-            SqlCommand cmd = new SqlCommand(qryl, MainClass.con);
-            cmd.Parameters.AddWithValue("@ID", MainID);
-            cmd.Parameters.AddWithValue("(@aDate", Convert.ToDateTime(DateTime.Now.Date));
-            cmd.Parameters.AddWithValue("@aTime", DateTime.Now.ToShortTimeString());
-            cmd.Parameters.AddWithValue("@TableName", lblTable.Text);
-            cmd.Parameters.AddWithValue("@WaiterName", lblWaiter.Text);
-            cmd.Parameters.AddWithValue("@status", "Hold");
-            cmd.Parameters.AddWithValue("@orderType", OrderType);
-            cmd.Parameters.AddWithValue("@total", Convert.ToDouble(0));  //as we only saving data for kitch value will update when payement
-            cmd.Parameters.AddWithValue("@recevied", Convert.ToDouble(0));
-            cmd.Parameters.AddWithValue("@change", Convert.ToDouble(0));
-            cmd.Parameters.AddWithValue("@driverID", driverID);
-            cmd.Parameters.AddWithValue("@CustName", customerName);
-            cmd.Parameters.AddWithValue("@CustPhone", customerPhone);
-
-
-            if (MainClass.con.State == ConnectionState.Closed) { MainClass.con.Open(); }
-            if (MainID == 0) { MainID = Convert.ToInt32(cmd.ExecuteScalar()); } else { cmd.ExecuteNonQuery(); }
-            if (MainClass.con.State == ConnectionState.Open) { MainClass.con.Close(); }
-
-            foreach (DataGridViewRow row in dataGridView1.Rows)
-            {
-                detailID = Convert.ToInt32(row.Cells["dgvproID"].Value);
-
-                if (detailID == 0) //insert
-                {
-                    qry2 = @"insert into orders Values( @pID , @pQty ,  @pAmount,@detID ";
-                }
-
-                else
-                {
-                    qry2 = @"update  tblDetails set  pID = @proID , pQty = @qty ,  amount = @amount";
-
-                }
-
-
-                SqlCommand cmd2 = new SqlCommand(qry2, MainClass.con);
-                cmd2.Parameters.AddWithValue("@ID", detailID);
-                cmd2.Parameters.AddWithValue("@pID", Convert.ToInt32(row.Cells["dgvproID"].Value));
-                //cmd.Parameters.AddWithValue("(@proID", );
-               cmd2.Parameters.AddWithValue("@pqty", Convert.ToInt32(row.Cells["dgvQty"].Value));
-               // cmd.Parameters.AddWithValue("@priec", Convert.ToDouble(row.Cells["dgvPrice"].Value));
-                cmd2.Parameters.AddWithValue("@amount", Convert.ToDouble(row.Cells["dgvQty"].Value));
-                cmd2.Parameters.AddWithValue("@detID", MainID);
-
-
-                if (MainClass.con.State == ConnectionState.Closed) { MainClass.con.Open(); }
-                //cmd2.ExecuteNonQuery();
-                if (MainClass.con.State == ConnectionState.Open) { MainClass.con.Close(); }
-
-
-                //msg--->saved successfully
-                MessageBox.Show("Saved Successfuly..");
-                MainID = 0;
-                detailID = 0;
-               // dataGridView1.Rows.Clear();
-                lblTable.Text = "";
-                lblWaiter.Text = "";
-                lblTable.Visible = false;
-                lblWaiter.Visible = false;
-                MainID = 0;
-                //lblTotal.Text = "00";
-                lblDriverName.Text = "";
-            }
-        }
-
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
-        {
-            Bitmap bm = new Bitmap(this.dataGridView1.Width, this.dataGridView1.Height);
-            dataGridView1.DrawToBitmap(bm, new Rectangle(0, 0, this.dataGridView1.Width, this.dataGridView1.Height));
-                e.Graphics.DrawImage(bm, 0, 0) ;
-        }
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
@@ -421,15 +253,6 @@ namespace Resturant_Mangement_System.Model
             frm.ShowDialog();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-            //label2.Text = 
-
-        }
-
-        private void userName_TextChanged(object sender, EventArgs e)
-        {
-           // userName.Text= MainClass.USER; ;
-        }
+        
     }
 }

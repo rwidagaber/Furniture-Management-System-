@@ -103,18 +103,6 @@
       <DependentUpon>frmPrintBill.cs</DependentUpon>
     </Compile>
     <Compile Include="MainClass.cs" />
-    <Compile Include="Model\frmAddCustomer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Model\frmAddCustomer.Designer.cs">
-      <DependentUpon>frmAddCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Model\frmBillList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Model\frmBillList.Designer.cs">
-      <DependentUpon>frmBillList.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\frmCategoryAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,12 +223,6 @@
     <Compile Include="View\frmProductView.Designer.cs">
       <DependentUpon>frmProductView.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frmReportView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\frmReportView.Designer.cs">
-      <DependentUpon>frmReportView.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\frmStaffView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,12 +240,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrintBill.resx">
       <DependentUpon>frmPrintBill.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmAddCustomer.resx">
-      <DependentUpon>frmAddCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Model\frmBillList.resx">
-      <DependentUpon>frmBillList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model\frmCategoryAdd.resx">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
@@ -305,9 +281,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmProductView.resx">
       <DependentUpon>frmProductView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\frmReportView.resx">
-      <DependentUpon>frmReportView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmStaffView.resx">
       <DependentUpon>frmStaffView.cs</DependentUpon>

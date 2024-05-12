@@ -148,6 +148,7 @@ namespace Resturant_Mangement_System
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "frmlog";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogincs";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -157,8 +158,6 @@ namespace Resturant_Mangement_System
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtpassword;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -166,5 +165,6 @@ namespace Resturant_Mangement_System
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnExit;
         public System.Windows.Forms.TextBox txtUserName;
+        public System.Windows.Forms.TextBox txtpassword;
     }
 }
