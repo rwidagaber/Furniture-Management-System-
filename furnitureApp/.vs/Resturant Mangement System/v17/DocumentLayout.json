@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|d:\\level_3\\2nd term\\software development\\project\\fms\\furniture-management-system-\\furnitureapp\\resturant mangement system\\model\\frmpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\model\\frmpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|d:\\level_3\\2nd term\\software development\\project\\fms\\furniture-management-system-\\furnitureapp\\resturant mangement system\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|d:\\level_3\\2nd term\\software development\\project\\fms\\furniture-management-system-\\furnitureapp\\resturant mangement system\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|d:\\level_3\\2nd term\\software development\\project\\fms\\furniture-management-system-\\furnitureapp\\resturant mangement system\\model\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|c:\\users\\pc\\onedrive\\desktop\\ihea\\furniture-management-system-\\furnitureapp\\resturant mangement system\\model\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\model\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|d:\\level_3\\2nd term\\software development\\project\\fms\\furniture-management-system-\\furnitureapp\\resturant mangement system\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\resturant mangement system\\view\\frmreportview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\view\\frmreportview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\resturant mangement system\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|d:\\level_3\\2nd term\\software development\\project\\fms\\furniture-management-system-\\furnitureapp\\resturant mangement system\\model\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\model\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\resturant mangement system\\view\\frmcategoryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\view\\frmcategoryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\resturant mangement system\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83274384-7C24-46AF-9D04-7C04C553E96A}|Resturant Mangement System\\Resturant Mangement System.csproj|solutionrelative:resturant mangement system\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,49 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPOS.cs",
-              "DocumentMoniker": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmPOS.cs",
-              "RelativeDocumentMoniker": "Resturant Mangement System\\Model\\frmPOS.cs",
-              "ToolTip": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmPOS.cs",
-              "RelativeToolTip": "Resturant Mangement System\\Model\\frmPOS.cs",
-              "ViewState": "AQIAAP8AAAAAAAAAAAApwAgBAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T23:16:15.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\frmMain.cs",
-              "RelativeDocumentMoniker": "Resturant Mangement System\\frmMain.cs",
-              "ToolTip": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\frmMain.cs",
-              "RelativeToolTip": "Resturant Mangement System\\frmMain.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAlwFEAAAAIAAAA",
+              "Title": "frmReportView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\View\\frmReportView.cs",
+              "RelativeDocumentMoniker": "Resturant Mangement System\\View\\frmReportView.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\View\\frmReportView.cs [Design]",
+              "RelativeToolTip": "Resturant Mangement System\\View\\frmReportView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T23:16:06.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmProductAdd.cs [Design]",
-              "DocumentMoniker": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmProductAdd.cs",
-              "RelativeDocumentMoniker": "Resturant Mangement System\\Model\\frmProductAdd.cs",
-              "ToolTip": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmProductAdd.cs [Design]",
-              "RelativeToolTip": "Resturant Mangement System\\Model\\frmProductAdd.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T22:53:44.387Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-12T02:11:04.312Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "frmCategoryView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\View\\frmCategoryView.cs",
+              "RelativeDocumentMoniker": "Resturant Mangement System\\View\\frmCategoryView.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\View\\frmCategoryView.cs [Design]",
+              "RelativeToolTip": "Resturant Mangement System\\View\\frmCategoryView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T02:09:06.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "frmProductAdd.cs",
-              "DocumentMoniker": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmProductAdd.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmProductAdd.cs",
               "RelativeDocumentMoniker": "Resturant Mangement System\\Model\\frmProductAdd.cs",
-              "ToolTip": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmProductAdd.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\Model\\frmProductAdd.cs",
               "RelativeToolTip": "Resturant Mangement System\\Model\\frmProductAdd.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAIwGYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,28 +73,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainClass.cs",
-              "DocumentMoniker": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\MainClass.cs",
               "RelativeDocumentMoniker": "Resturant Mangement System\\MainClass.cs",
-              "ToolTip": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\MainClass.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\MainClass.cs",
               "RelativeToolTip": "Resturant Mangement System\\MainClass.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwv6IAAAAmAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T22:20:02.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T22:20:02.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\frmMain.cs",
               "RelativeDocumentMoniker": "Resturant Mangement System\\frmMain.cs",
-              "ToolTip": "D:\\level_3\\2nd term\\Software development\\Project\\FMS\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\frmMain.cs [Design]",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\IHea\\Furniture-Management-System-\\furnitureApp\\Resturant Mangement System\\frmMain.cs [Design]",
               "RelativeToolTip": "Resturant Mangement System\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T22:19:56.803Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-10T22:19:56.803Z"
             }
           ]
         }

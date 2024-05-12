@@ -35,6 +35,12 @@ namespace Resturant_Mangement_System.Model
             this.lblTotal = new System.Windows.Forms.Label();
             this.ProductPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvSno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnCheckout = new System.Windows.Forms.Button();
             this.CategoryPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -45,18 +51,12 @@ namespace Resturant_Mangement_System.Model
             this.btnBill = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.PictureBox();
+            this.btnHold = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.txtsearch = new System.Windows.Forms.TextBox();
             this.lblDriverName = new System.Windows.Forms.Label();
             this.btnPrint = new System.Windows.Forms.Button();
             this.ucProduct2 = new Resturant_Mangement_System.Model.UcProduct();
-            this.dgvSno = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnHold = new System.Windows.Forms.Button();
             this.ProductPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.CategoryPanel.SuspendLayout();
@@ -136,6 +136,61 @@ namespace Resturant_Mangement_System.Model
             this.dataGridView1.Size = new System.Drawing.Size(351, 407);
             this.dataGridView1.TabIndex = 20;
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
+            // 
+            // dgvSno
+            // 
+            this.dgvSno.FillWeight = 28.03069F;
+            this.dgvSno.HeaderText = "Sr#";
+            this.dgvSno.MinimumWidth = 6;
+            this.dgvSno.Name = "dgvSno";
+            this.dgvSno.ReadOnly = true;
+            // 
+            // dgvid
+            // 
+            this.dgvid.HeaderText = "id";
+            this.dgvid.MinimumWidth = 6;
+            this.dgvid.Name = "dgvid";
+            this.dgvid.ReadOnly = true;
+            this.dgvid.Visible = false;
+            // 
+            // dgvName
+            // 
+            this.dgvName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvName.FillWeight = 82.44316F;
+            this.dgvName.HeaderText = "Name";
+            this.dgvName.MinimumWidth = 50;
+            this.dgvName.Name = "dgvName";
+            this.dgvName.ReadOnly = true;
+            // 
+            // dgvQty
+            // 
+            this.dgvQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dgvQty.FillWeight = 30F;
+            this.dgvQty.HeaderText = "Qty";
+            this.dgvQty.MinimumWidth = 30;
+            this.dgvQty.Name = "dgvQty";
+            this.dgvQty.ReadOnly = true;
+            this.dgvQty.Width = 30;
+            // 
+            // dgvPrice
+            // 
+            this.dgvPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dgvPrice.FillWeight = 50F;
+            this.dgvPrice.HeaderText = "Price";
+            this.dgvPrice.MinimumWidth = 50;
+            this.dgvPrice.Name = "dgvPrice";
+            this.dgvPrice.ReadOnly = true;
+            this.dgvPrice.Width = 50;
+            // 
+            // dgvAmount
+            // 
+            this.dgvAmount.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dgvAmount.FillWeight = 50F;
+            this.dgvAmount.HeaderText = "Amount";
+            this.dgvAmount.MinimumWidth = 50;
+            this.dgvAmount.Name = "dgvAmount";
+            this.dgvAmount.ReadOnly = true;
+            this.dgvAmount.Width = 50;
             // 
             // flowLayoutPanel1
             // 
@@ -217,7 +272,7 @@ namespace Resturant_Mangement_System.Model
             this.POS.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.POS.Location = new System.Drawing.Point(120, 9);
             this.POS.Name = "POS";
-            this.POS.Size = new System.Drawing.Size(40, 18);
+            this.POS.Size = new System.Drawing.Size(49, 24);
             this.POS.TabIndex = 5;
             this.POS.Text = "POS";
             // 
@@ -263,6 +318,21 @@ namespace Resturant_Mangement_System.Model
             this.btnExit.TabIndex = 24;
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnHold
+            // 
+            this.btnHold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
+            this.btnHold.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnHold.FlatAppearance.BorderSize = 0;
+            this.btnHold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHold.ForeColor = System.Drawing.Color.White;
+            this.btnHold.Location = new System.Drawing.Point(369, 12);
+            this.btnHold.Name = "btnHold";
+            this.btnHold.Size = new System.Drawing.Size(68, 38);
+            this.btnHold.TabIndex = 1;
+            this.btnHold.Text = "Hold";
+            this.btnHold.UseVisualStyleBackColor = false;
+            this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
             // 
             // btnNew
             // 
@@ -321,7 +391,8 @@ namespace Resturant_Mangement_System.Model
             // ucProduct2
             // 
             this.ucProduct2.id = 0;
-            this.ucProduct2.Location = new System.Drawing.Point(3, 3);
+            this.ucProduct2.Location = new System.Drawing.Point(4, 4);
+            this.ucProduct2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ucProduct2.Name = "ucProduct2";
             this.ucProduct2.PCategory = null;
             this.ucProduct2.PImage = ((System.Drawing.Image)(resources.GetObject("ucProduct2.PImage")));
@@ -330,79 +401,10 @@ namespace Resturant_Mangement_System.Model
             this.ucProduct2.Size = new System.Drawing.Size(171, 159);
             this.ucProduct2.TabIndex = 0;
             // 
-            // dgvSno
-            // 
-            this.dgvSno.FillWeight = 28.03069F;
-            this.dgvSno.HeaderText = "Sr#";
-            this.dgvSno.MinimumWidth = 6;
-            this.dgvSno.Name = "dgvSno";
-            this.dgvSno.ReadOnly = true;
-            // 
-            // dgvid
-            // 
-            this.dgvid.HeaderText = "id";
-            this.dgvid.MinimumWidth = 6;
-            this.dgvid.Name = "dgvid";
-            this.dgvid.ReadOnly = true;
-            this.dgvid.Visible = false;
-            // 
-            // dgvName
-            // 
-            this.dgvName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dgvName.FillWeight = 82.44316F;
-            this.dgvName.HeaderText = "Name";
-            this.dgvName.MinimumWidth = 50;
-            this.dgvName.Name = "dgvName";
-            this.dgvName.ReadOnly = true;
-            // 
-            // dgvQty
-            // 
-            this.dgvQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvQty.FillWeight = 30F;
-            this.dgvQty.HeaderText = "Qty";
-            this.dgvQty.MinimumWidth = 30;
-            this.dgvQty.Name = "dgvQty";
-            this.dgvQty.ReadOnly = true;
-            this.dgvQty.Width = 30;
-            // 
-            // dgvPrice
-            // 
-            this.dgvPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvPrice.FillWeight = 50F;
-            this.dgvPrice.HeaderText = "Price";
-            this.dgvPrice.MinimumWidth = 50;
-            this.dgvPrice.Name = "dgvPrice";
-            this.dgvPrice.ReadOnly = true;
-            this.dgvPrice.Width = 50;
-            // 
-            // dgvAmount
-            // 
-            this.dgvAmount.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgvAmount.FillWeight = 50F;
-            this.dgvAmount.HeaderText = "Amount";
-            this.dgvAmount.MinimumWidth = 50;
-            this.dgvAmount.Name = "dgvAmount";
-            this.dgvAmount.ReadOnly = true;
-            this.dgvAmount.Width = 50;
-            // 
-            // btnHold
-            // 
-            this.btnHold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(116)))), ((int)(((byte)(95)))));
-            this.btnHold.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnHold.FlatAppearance.BorderSize = 0;
-            this.btnHold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHold.ForeColor = System.Drawing.Color.White;
-            this.btnHold.Location = new System.Drawing.Point(369, 12);
-            this.btnHold.Name = "btnHold";
-            this.btnHold.Size = new System.Drawing.Size(68, 38);
-            this.btnHold.TabIndex = 1;
-            this.btnHold.Text = "Hold";
-            this.btnHold.UseVisualStyleBackColor = false;
-            this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
-            // 
             // frmPOS
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(1058, 632);
             this.Controls.Add(this.lblDriverName);
             this.Controls.Add(this.btnPrint);

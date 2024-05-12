@@ -541,3 +541,95 @@ C:\Users\Aa\Desktop\fur\Furniture-Management-System-\furnitureApp\Resturant Mang
 C:\Users\Aa\Desktop\fur\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.Mvc.dll
 C:\Users\Aa\Desktop\fur\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.xml
 C:\Users\Aa\Desktop\fur\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.Mvc.xml
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe.config
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Resturant Mangement System.exe
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Resturant Mangement System.pdb
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.Mvc.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\EnvDTE.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\stdole.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.xml
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\PagedList.Mvc.xml
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmlog.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmMain.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrint.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.frmPrintBill.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmAddCustomer.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmBillList.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCategoryAdd.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmCheckout.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmPOS.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductAdd.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmrecpcs.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.frmStaffAdd.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Model.UcProduct.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.Properties.Resources.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleView.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.SampleAdd.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmCategoryView.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmKitchenView.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmProductView.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmReportView.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant_Mangement_System.View.frmStaffView.resources
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.GenerateResource.cache
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturan.387F3A9C.Up2Date
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.exe
+C:\Users\PC\OneDrive\Desktop\IHea\Furniture-Management-System-\furnitureApp\Resturant Mangement System\obj\Debug\Resturant Mangement System.pdb

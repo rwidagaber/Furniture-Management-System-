@@ -59,7 +59,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.productView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.productView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.productView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.productView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.productView.ColumnHeadersHeight = 50;
             this.productView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -82,7 +82,8 @@
             this.productView.RowHeadersVisible = false;
             this.productView.RowHeadersWidth = 10;
             this.productView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productView.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.productView.RowTemplate.Height = 24;
             this.productView.Size = new System.Drawing.Size(776, 269);

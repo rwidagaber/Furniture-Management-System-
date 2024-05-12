@@ -59,7 +59,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.staffView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.staffView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.staffView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.staffView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.staffView.ColumnHeadersHeight = 50;
             this.staffView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -82,7 +82,9 @@
             this.staffView.RowHeadersVisible = false;
             this.staffView.RowHeadersWidth = 10;
             this.staffView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             this.staffView.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.staffView.RowTemplate.Height = 24;
             this.staffView.Size = new System.Drawing.Size(776, 269);

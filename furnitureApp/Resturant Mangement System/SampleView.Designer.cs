@@ -51,7 +51,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(22, 27);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 24);
+            this.label2.Size = new System.Drawing.Size(157, 29);
             this.label2.TabIndex = 4;
             this.label2.Text = "Header Text";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -63,7 +63,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(487, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 17);
+            this.label1.Size = new System.Drawing.Size(68, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Search";
             // 
@@ -82,7 +82,7 @@
             // SampleView
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtSearch);

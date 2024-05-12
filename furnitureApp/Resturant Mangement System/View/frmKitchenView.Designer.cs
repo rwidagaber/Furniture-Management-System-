@@ -55,6 +55,7 @@
             // frmKitchenView
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(938, 562);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel1);

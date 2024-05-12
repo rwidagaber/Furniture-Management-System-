@@ -57,7 +57,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(94, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 24);
+            this.label1.Size = new System.Drawing.Size(99, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Header";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,6 +120,7 @@
             // SampleAdd
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.ClientSize = new System.Drawing.Size(364, 450);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
